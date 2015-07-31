@@ -2,7 +2,7 @@
     "description": "this is a script that use iconv to convert files' encoding",
     "name": "file-encoder",
     "usage": "file-encoder -f ${filename} -d ${directory} -r -e ${encoding}",
-    "version": "0.0.2015073113",
+    "version": "0.0.2015073114",
     "main":"encoder.js",
     "author": "leungwensen <leungwensen@gmail.com>",
     "homepage": "https://github.com/leungwensen/file-encoder",

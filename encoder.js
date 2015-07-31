@@ -19,7 +19,7 @@ var utils = require('./utils'),
     extname = utils.extname,
     walkFiles = utils.walkFiles;
 
-var pkg = require('package.json');
+var pkg = require('./package.json');
 
 var argv = require('minimist')(process.argv.slice(2), {
     default: {
