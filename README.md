@@ -10,28 +10,28 @@ you do not have to know the original encoding of the file to finish encoding.
 
 ```shell
 npm install file-encoder -g
-file-encoder
+file-encoder -h
 ```
 
-* use case1: convert a file's encoding to `utf8`
+* use case: convert a file's encoding to `utf8`
 
 ```
 file-encoder -f ${filename}
 ```
 
-* use case2: convert a file's content to utf8 and write to another file
+* use case: convert a file's content to `utf8` and write to another file
 
 ```
 file-encoder -f ${filename} -t ${targetFilename}
 ```
 
-* use case3: convert all files' encoding to `gbk` in a directory
+* use case: convert all files' encoding to `gbk` in a directory
 
 ```
 file-encoder -d ${directory} -e gbk
 ```
 
-* use case4: convert all files' encoding to `utf8` in a directory recursively
+* use case: convert all files' encoding to `utf8` in a directory recursively
 
 ```
 file-encoder -d ${directory} -r
