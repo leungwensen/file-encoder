@@ -1,7 +1,6 @@
 {
     "description": "this is a script that use iconv to convert files' encoding",
     "name": "file-encoder",
-    "private": true,
     "usage": "file-encoder -f ${filename} -d ${directory} -r -e ${encoding}",
     "version": "0.0.20150731",
     "main":"encoder.js",

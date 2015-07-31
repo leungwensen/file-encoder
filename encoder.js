@@ -79,8 +79,6 @@ function processFile(filename, targetFilename) {
     }
 }
 
-console.log(argv);
-
 if (argv.version) {
     dump({
         version: pkg.version
