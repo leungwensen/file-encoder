@@ -37,6 +37,18 @@ file-encoder -d ${directory} -e gbk
 file-encoder -d ${directory} -r
 ```
 
+* use case: convert all files' encoding to `utf8` in a directory recursively excluding some paths
+
+```
+file-encoder -d ${directory} -r --exclude node_modules --exclude test --exclude dev
+```
+
+* use case: convert encoding of all files with specified extnames to `utf8` in a directory
+
+```
+file-encoder -d ${directory} --extname js --extname css --extname html
+```
+
 ## Thanks to
 
 file-encoder is made possible by all these fantastic projects:
