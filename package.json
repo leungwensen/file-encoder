@@ -1,0 +1,25 @@
+{
+    "description": "this is a script that use iconv to convert files' encoding",
+    "name": "file-encoder",
+    "private": true,
+    "usage": "file-encoder -f ${filename} -d ${directory} -r -e ${encoding}",
+    "version": "0.0.20150731",
+    "main":"encoder.js",
+    "bin": {
+        "file-encoder": "./encoder.js"
+    },
+    "dependencies": {
+        "iconv-lite": "*",
+        "minimist": "*",
+        "node-icu-charset-detector": "*",
+        "pastry": "*"
+    },
+    "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-contrib-watch": "*"
+    },
+    "files": [
+        "encoder.js",
+        "utils.js"
+    ]
+}
