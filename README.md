@@ -2,7 +2,7 @@
 
 [file-encoder](https://github.com/leungwensen/zfinder) is a script that uses libicu to detect file encoding & uses iconv to convert files' encoding.
 
-you do not have to know the original encoding of the file to finish encoding.
+you DO NOT have to know the original encoding of the file to finish the converting
 
 ## Usage
 
