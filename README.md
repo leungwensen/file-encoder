@@ -53,8 +53,8 @@ file-encoder -d ${directory} --extname js --extname css --extname html
 
 file-encoder is made possible by all these fantastic projects:
 
-* [mooz/node-icu-charset-detector](https://github.com/mooz/node-icu-charset-detector)
 * [ashtuchkin/iconv-lite](https://github.com/ashtuchkin/iconv-lite)
+* [mooz/node-icu-charset-detector](https://github.com/mooz/node-icu-charset-detector)
 * [substack/minimist](https://github.com/substack/minimist)
 
 
