@@ -2,8 +2,21 @@
     "description": "this is a script that use iconv to convert files' encoding",
     "name": "file-encoder",
     "usage": "file-encoder -f ${filename} -d ${directory} -r -e ${encoding}",
-    "version": "0.0.20150731",
+    "version": "0.0.2015073113",
     "main":"encoder.js",
+    "author": "leungwensen <leungwensen@gmail.com>",
+    "homepage": "https://github.com/leungwensen/file-encoder",
+    "keywords": [
+        "file-encoder",
+        "iconv",
+        "ICU",
+        "encoder",
+        "encoding"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/leungwensen/file-encoder.git"
+    },
     "bin": {
         "file-encoder": "./encoder.js"
     },
@@ -18,6 +31,7 @@
         "grunt-contrib-watch": "*"
     },
     "files": [
+        "package.json",
         "encoder.js",
         "utils.js"
     ]
