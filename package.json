@@ -2,10 +2,15 @@
     "description": "this is a script that use iconv to convert files' encoding",
     "name": "file-encoder",
     "usage": "file-encoder -f ${filename} -d ${directory} -r -e ${encoding}",
-    "version": "0.0.2015073114",
+    "version": "0.0.20150923",
     "main":"encoder.js",
     "author": "leungwensen <leungwensen@gmail.com>",
     "homepage": "https://github.com/leungwensen/file-encoder",
+    "files": [
+        "package.json",
+        "encoder.js",
+        "utils.js"
+    ],
     "keywords": [
         "file-encoder",
         "iconv",
@@ -13,10 +18,6 @@
         "encoder",
         "encoding"
     ],
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/leungwensen/file-encoder.git"
-    },
     "bin": {
         "file-encoder": "./encoder.js"
     },
@@ -30,9 +31,11 @@
         "grunt": "^0.4.5",
         "grunt-contrib-watch": "*"
     },
-    "files": [
-        "package.json",
-        "encoder.js",
-        "utils.js"
-    ]
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/leungwensen/file-encoder.git"
+    },
+    "scripts": {
+        "preinstall": "brew install iconv && brew install icu4c && brew link icu4c --force"
+    }
 }
